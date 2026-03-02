@@ -43,6 +43,6 @@ raw {
 }
 
 extern fn sort_int(arr: int*, len: usize);
-extern fn sort_long(arr: long*, len: usize);
+extern fn sort_long(arr: c_long*, len: usize);
 extern fn sort_float(arr: float*, len: usize);
 extern fn sort_double(arr: double*, len: usize);
